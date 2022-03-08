@@ -1,27 +1,46 @@
 const workHistory = [
     {
-        companyName : 'Company Name 1',
-        role: 'SDE Intern',
-        duration: "July'21 – Oct'21",
+        companyName : 'Andasis Elektronik Sanayi ',
+        role: 'Embedded Software Intern',
+        duration: "Mar'19 – Sep'19",
         workDes: [
-            'Build So and so on for xyz.',
-            'Designed and developed REST API’s to integrate user interaction with Twitter and Linkedin on server.',
+            'Communication protocols',
+            'MPU9250 sensor data with TI CC1350',
+            'Bluetooth communication',
+            'Position estimation of a moving module from a stationary module',
         ],
-        exposer: ["React", "Redux Saga ", "NodeJs", "ExpressJs", "MongoDB", "Heroku", "Twitter API’s", "LinkedIn API"] ,
-        link: 'https://google.com/',
+        exposer: ["C", "ARM", "MPU9250", "STM32", "Bluetooth", "I2C", "UART"] ,
+        link: 'http://www.andasis.com',
     },
     {
-        companyName: 'Company Name 2',
-        role: 'SDE Intern',
-        duration: "Mar'21 – Apr'21",
+        companyName: 'DigiNova Bilisim Teknolojileri',
+        role: 'Mobile Development Intern',
+        duration: "Aug'21 – Aug'21",
         workDes: [
-            'Developed full stack B2B admin portal web application using Reactjs,Mongodb, Nodejs.',
-            'Designed and developed REST APIs to increase user interaction on the server.',
+            'Angular & Ionic Framework',
+            'Custom Ionic module with Login & Register pages',
+            'AuthService & GuardService integration of module',
         ],
-        exposer: ["React ", "NodeJs", "MongoDB" , "ContextAPI"],
-        link: 'https://google.com/',
+        exposer: ["Angular ", "Ionic", "Axios" , "Auth", "REST", "Typescript"],
+        link: 'https://diginova.com.tr',
     },
-    
+    {
+        companyName: 'Solvia Digital Solutions',
+        role: 'Java Developer',
+        duration: "Sep'21 – Currently",
+        workDes: [
+            'Java',
+            'Spring Boot',
+            'Design Patterns',
+            'JPA & Hibernate',
+            'Maven & Docker\n',
+            'Linux & Git\n',
+            'Kyma & Kubernetes\n',
+            'Relational & Non-relational Databases\n',
+        ],
+        link: 'https://www.solviads.com',
+    }
+
 ];
 
 export default workHistory;

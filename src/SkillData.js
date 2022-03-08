@@ -1,5 +1,21 @@
 const Proficient = [
     {
+        skill: "Java",
+        logo: "./images/icons/java-icon.svg"
+    },
+    {
+        skill: "Hibernate",
+        logo: "./images/icons/hibernate-icon.svg"
+    },
+    {
+        skill: "Spring",
+        logo: "./images/icons/springio-icon.svg"
+    },
+    {
+        skill: "Maven",
+        logo: "./images/icons/file_type_maven.svg"
+    },
+    {
         skill: "Javascript",
         logo: './images/icons/javascript-original.svg'
     },
@@ -8,37 +24,36 @@ const Proficient = [
         logo: './images/icons/react-original.svg'
     },
     {
-        skill: "Node JS ",
-        logo: "./images/icons/nodejs-original.svg"
-    },
-    {
-        skill: "MongoDB",
-        logo: "./images/icons/mongodb-original.svg"
-    },
-    {
         skill: "Git",
         logo: "./images/icons/git-scm-icon.svg"
     },
-    
     {
-        skill: "SocketIO",
-        logo: "./images/icons/socket-io.svg"
+        skill: "Linux",
+        logo: "./images/icons/linux-icon.svg"
+    },
+    {
+        skill: "Docker",
+        logo: './images/icons/docker-icon.svg'
     },
     {
         skill: "C Language",
         logo: "./images/icons/icons8-c-programming-48.png"
     },
     {
-        skill: "C++ Language",
-        logo: "./images/icons/icons8-c++.svg"
+        skill: "Unity",
+        logo: "./images/icons/unity3d-icon.svg"
     },
     {
         skill: "MySql",
-        logo: "./images/icons/mysql-ar21.svg"
+        logo: "./images/icons/mysql-icon.svg"
     },
     {
-        skill: "Redis",
-        logo: "./images/icons/redis-icon.svg"
+        skill: "PostgreSql",
+        logo: './images/icons/postgresql-icon.svg'
+    },
+    {
+        skill: "MongoDB",
+        logo: "./images/icons/mongodb-original.svg"
     },
     {
         skill: "HTML 5",
@@ -50,25 +65,31 @@ const Proficient = [
     },
 ]
 const Familiar = [
-    {
-        skill: "Java",
-        logo: "./images/icons/java-icon.svg"
-    },
+
     {
         skill: "Python",
         logo: "./images/icons/python-icon.svg"
     },
+
     {
-        skill: "WebRTC",
-        logo: "./images/icons/webrtc.svg"
+        skill: "C++ Language",
+        logo: "./images/icons/icons8-c++.svg"
     },
     {
-        skill: "Linux",
-        logo: "./images/icons/linux-icon.svg"
+        skill: "C#",
+        logo: "./images/icons/csharp.svg"
     },
     {
-        skill: "AWS",
-        logo: "./images/icons/amazon_aws-icon.svg"
+        skill: "Kubernetes",
+        logo: "./images/icons/kubernetes-icon.svg"
+    },
+    {
+        skill: "Elastic",
+        logo: "./images/icons/elastic-icon.svg"
+    },
+    {
+        skill: "Kibana",
+        logo: "./images/icons/elasticco_kibana-icon.svg"
     },
     
 ]

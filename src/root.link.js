@@ -1,11 +1,9 @@
-export const RESUME_PATH = 'https://drive.google.com/';
-export const GITHUB_USERNAME = 'codewithvk';
-export const LINKEDIN_USERNAME = 'vivekkumarjaviya';
-export const FIRST_NAME = 'Vivekkumar';
-export const LAST_NAME = 'Javiya';
-export const ADDRESS = 'Rajkot, Gujrat'
-export const EMAIL_ID = 'work.vivekjaviya@gmail.com';
-export const TWITTER_ID = 'Vk_javiya';
-export const FRONT_PAGE_NAME = 'Vivek Kumar';
-export const FRONT_PAGE_DESC = 'A Full-Stack Web Developer & Open Source Contributor.I like to build things for web and solving problems.'
+export const GITHUB_USERNAME = 'arasdenizhan';
+export const LINKEDIN_USERNAME = 'denizhan-aras-182361138';
+export const FIRST_NAME = 'Denizhan';
+export const LAST_NAME = 'Aras';
+export const ADDRESS = 'Istanbul, Turkey'
+export const EMAIL_ID = 'denozhan@hotmail.com';
+export const FRONT_PAGE_NAME = 'Denizhan.';
+export const FRONT_PAGE_DESC = 'I am a 24 years old, dedicated and enthusiastic Java developer. My main goal is experience everything related with my field. To reach that goal, I always try to develop new projects with new technologies.'
 

@@ -1,5 +1,5 @@
 import React from 'react';
-import { ADDRESS, EMAIL_ID, FIRST_NAME, GITHUB_USERNAME, LAST_NAME, LINKEDIN_USERNAME, RESUME_PATH, TWITTER_ID } from '../root.link'
+import { ADDRESS, EMAIL_ID, FIRST_NAME, GITHUB_USERNAME, LAST_NAME, LINKEDIN_USERNAME } from '../root.link'
 const Contact = () => {
   return (
     <section className='my-28' id='contact'>
@@ -16,9 +16,6 @@ const Contact = () => {
               {EMAIL_ID}
             </a>
           </div>
-          <a className='border-b-2 mt-3 inline-block border-gray-500' href={RESUME_PATH} target='_blank' rel='noreferrer'>
-            Resume
-          </a>
           <div className='flex flex-row flex-wrap mt-7'>
             <div className='mr-4'>
               <a href={`https://www.linkedin.com/in/${LINKEDIN_USERNAME}`} target='_blank' rel='noreferrer'>
@@ -38,12 +35,6 @@ const Contact = () => {
               </a>
             </div>
 
-            <a href={`https://twitter.com/${TWITTER_ID}`} target='_blank' rel='noreferrer'>
-              <span className='mb-2 flex flex-row items-end border border-gray-500 p-2 rounded-lg text-sm'>
-                <img src='./images/icons/icons8-twitter (2).svg' alt='' width='24px' height='24px' className='mr-1' />
-                 Twitter
-              </span>
-            </a>
           </div>
         </div>
 
